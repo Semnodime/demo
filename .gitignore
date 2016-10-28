@@ -1,0 +1,2 @@
+dirty-cow/*
+!dirty-cow/*.sh
